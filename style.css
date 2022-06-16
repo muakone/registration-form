@@ -83,7 +83,7 @@ main {
     padding: 35px 10px 35px 10px;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 0px 8px 0px 0px rgb(0 0 0 / 15%);
+    box-shadow: -10px 10px 0px 0px rgb(0 0 0 / 15%);
 }
 .formContainer form {
     width: 100%;
@@ -141,12 +141,12 @@ main {
 }
 .error {
 	display: none;
-	color: hsl(0, 100%, 74%);
-	font-size: 10px;
+	color: var(--Red);
+    margin-right: 10px;
+	font-size: 12px;
 	font-style: italic;
 	font-weight: 500;
 	float: right;
-	margin-right: 0.3rem;
 }
 
 .inputField {
