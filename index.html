@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="learnContainer">
+        <div class="headerContainer">
+          <h1>Learn to code by watch others</h1>
+        </div>
+        <div class="paraContainer">
+          <p>
+            See how experienced developers solve problems in real time. Watch
+            scripted tutorial is great, but understanding how developers think
+            is invaluable
+          </p>
+        </div>
+      </section>
+      <section class="rightContainer">
+        <div class="freeTrial">
+          <p>Try it free 7 days <span>then $20/mo. thereafter</span></p>
+        </div>
+        <div class="formContainer">
+            <form>
+              <div class="fName inputContainer">
+                  <div class="inputField">
+                    <input type="text" id="fname" name="fname" placeholder="First Name" />
+                    <img src="./images/icon-error.svg" alt="" id="errorImg1">
+                  </div>
+                  <label for="fname" class="error" id="fnameError">First name cannot be empty</label>
+              </div>
+              <div class="lName inputContainer">
+                  <div class="inputField">
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" />
+                    <img src="./images/icon-error.svg" alt="" id="errorImg2">
+                  </div>
+                <label for="lname" class="error" id="lnameError">Last name cannot be empty</label>
+              </div>
+              <div class="email inputContainer">
+                  <div class="inputField">
+                    <input type="email" id="email" name="email" placeholder="Email Address" />
+                    <img src="./images/icon-error.svg" alt="" id="errorImg3">
+                  </div>
+                
+                <label for="email" class="error" id="emailError">Looks like this is not an email</label>
+              </div>
+              <div class="password inputContainer">
+                  <div class="inputField">
+                    <input type="password" id="pwd" name="pwd" placeholder="Password" />
+                    <img src="./images/icon-error.svg" alt="" id="errorImg4">
+                  </div>
+                
+                <label for="pwd" class="error" id="pwdError">Password cannot be empty</label>
+              </div>
+              <div class="btn-form">
+                <button type="button" id="sumbitTrial">claim your free trial</button>
+              </div>
+            </form>
+            <p class="agreement">
+              By clicking the button, you are agreeing to our
+              <a href="#">Terms and Services</a>
+            </p>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
