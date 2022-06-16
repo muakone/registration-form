@@ -75,6 +75,7 @@ main {
 .freeTrial p {
     color: white;
     font-size: 16px;
+    font-weight: 500;
 }
 .freeTrial p span {
     color: var(--Grayish-Blue);
@@ -183,5 +184,17 @@ main {
     }
     .learnContainer .headerContainer h1 {
         font-size: 32px;
+    }
+}
+@media(max-width: 425px) {
+    .learnContainer {
+        width: 80%;
+    }
+    .paraContainer p {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    .rightContainer {
+        width: 100%;
     }
 }
