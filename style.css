@@ -59,8 +59,8 @@ main {
     margin-left: 30px;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .freeTrial {
     width: 80%;
